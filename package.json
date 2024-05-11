@@ -1,0 +1,38 @@
+{
+  "name": "@vsc.eco/kzg",
+  "version": "0.1.0",
+  "description": "Proof of concept KZG commitments using BLS12-381 curves using [noble-curves](https://github.com/paulmillr/noble-curves) and [galois](https://github.com/GuildOfWeavers/galois)",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --force-exit kzg.test.ts"
+  },
+  "keywords": [
+    "kzg",
+    "bls",
+    "bls12-381",
+    "polynomial-commitments",
+    "zero-knowledge",
+    "zkproofs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsc-eco/bls-kzg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vsc-eco/bls-kzg/issues"
+  },
+  "homepage": "https://github.com/vsc-eco/bls-kzg#readme",
+  "dependencies": {
+    "@guildofweavers/galois": "^0.4.22",
+    "@noble/curves": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.5"
+  }
+}
